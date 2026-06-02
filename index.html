@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beefi Apps</title>
+  <meta name="description" content="Public information and policy pages for Beefi Apps.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #fbfaf7;
+      --text: #202124;
+      --muted: #5f6368;
+      --link: #0b57d0;
+      --rule: #dedbd2;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #161615;
+        --text: #f4f1ea;
+        --muted: #b9b3a8;
+        --link: #8ab4f8;
+        --rule: #3b3832;
+      }
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0 72px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    .intro {
+      color: var(--muted);
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 24px;
+      margin-bottom: 28px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Beefi Apps</h1>
+    <p class="intro">Public information and policy pages for Beefi Apps.</p>
+    <p><a href="pomates/privacy.html">Pomates Privacy Policy</a></p>
+  </main>
+</body>
+</html>
